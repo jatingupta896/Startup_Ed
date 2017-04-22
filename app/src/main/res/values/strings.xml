@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Startup Ed</string>
+    <string name="Student_Name">Student Name</string>
+    <string name="Student_College">College</string>
+    <string name="Student_Email">Email</string>
+    <string name="Student_Interested_In">Interested In</string>
+
+    <string name="add_post">Add post</string>
+    <string name="Student_Register">Student Register</string>
+    <string name="Student_Idea_StartUp">Portfolio Link</string>
+    <string name="startup">Entrepreneur</string>
+    <string name="student">Student</string>
+    <string name="investor">investor</string>
+    <string name="founder_name">founder name</string>
+    <string name="email">email</string>
+    <string name="company_name">company name</string>
+    <string name="detail_location">detail location</string>
+    <string name="detail_desc">detail</string>
+</resources>

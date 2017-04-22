@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@color/colorWhite"
+    tools:context="com.animator_abhi.gcethackathon.Login.LoginActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Who Are You?"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/buttonInvestors"
+android:visibility="gone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/boder"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/investor"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+
+    <Button
+        android:id="@+id/buttonStartup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/boder"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/startup"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/buttonStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/boder"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/student"
+
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg_mi"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.62" />
+</LinearLayout>

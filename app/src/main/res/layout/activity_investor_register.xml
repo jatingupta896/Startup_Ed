@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.animator_abhi.gcethackathon.Login.InvestorRegister"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/investor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Investor Name" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/investor_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Investor Company" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/investor_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Investor Description"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/investor_potential"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Investor Potential" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/investor_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/authui_colorAccent"
+        android:text="Register Investor"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
